@@ -33,9 +33,9 @@ jobs:
         locust \
           --host=https://fishkids.ru \
           --headless \
-          --users=100 \
-          --spawn-rate=10 \
-          --run-time=5m \
+          --users=50 \
+          --spawn-rate=5 \
+          --run-time=2m \
           --html=locust_report.html \
           --csv=locust_report \
           --csv-full-history \
